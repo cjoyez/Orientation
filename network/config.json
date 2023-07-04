@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Charlie Joyez"
+  },
+  "text": {
+    "more": "Les doublettes de spécialisations sont liées les unes aux autres selon la fréquence d\u0027admission commune dans le supérieur.\nPlus le lien entre deux doublettes est fort, plus elles permettent d\u0027accéder aux même formations du supérieur.",
+    "intro": "Les doublettes de spécialisations sont liées les unes aux autres selon la fréquence d\u0027admission commune dans le supérieur.\n",
+    "title": "Proximité doublettes de spécialisation"
+  },
+  "legend": {
+    "edgeLabel": "fréquence d\u0027acceptation dans les mêmes formations",
+    "colorLabel": "-",
+    "nodeLabel": "Doublettes de spécialité"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "Id"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
